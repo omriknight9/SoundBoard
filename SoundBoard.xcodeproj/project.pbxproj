@@ -15,6 +15,7 @@
 		5A456F1D1F13A8E0005E115F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A456F1B1F13A8E0005E115F /* LaunchScreen.storyboard */; };
 		5A456F281F13A8E0005E115F /* SoundBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A456F271F13A8E0005E115F /* SoundBoardTests.swift */; };
 		5A456F331F13A8E0005E115F /* SoundBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A456F321F13A8E0005E115F /* SoundBoardUITests.swift */; };
+		5A456F411F13AAE7005E115F /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A456F401F13AAE7005E115F /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5A456F2E1F13A8E0005E115F /* SoundBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A456F321F13A8E0005E115F /* SoundBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBoardUITests.swift; sourceTree = "<group>"; };
 		5A456F341F13A8E0005E115F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A456F401F13AAE7005E115F /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				5A456F0F1F13A8E0005E115F /* AppDelegate.swift */,
 				5A456F111F13A8E0005E115F /* ViewController.swift */,
+				5A456F401F13AAE7005E115F /* SoundViewController.swift */,
 				5A456F131F13A8E0005E115F /* Main.storyboard */,
 				5A456F191F13A8E0005E115F /* Assets.xcassets */,
 				5A456F1B1F13A8E0005E115F /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A456F411F13AAE7005E115F /* SoundViewController.swift in Sources */,
 				5A456F181F13A8E0005E115F /* SoundBoard.xcdatamodeld in Sources */,
 				5A456F121F13A8E0005E115F /* ViewController.swift in Sources */,
 				5A456F101F13A8E0005E115F /* AppDelegate.swift in Sources */,
